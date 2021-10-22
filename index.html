@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>css position</title>
+                <style>
+                    .mybox{ 
+                        width: 500px;
+                        height: 500px;
+                        background-color: red;
+                        margin:  auto;
+                        position: relative;
+                        border:1px solid #000;
+
+                        
+                        
+                    }
+                    .common{ 
+                        width: 250px;
+                        height: 250px;
+                        position: absolute;
+                        
+                    }
+                    .c1{ 
+                    
+                        background-color: blue;
+                    
+                        right: 0px;
+                        bottom: 0px;
+                    
+                    }
+                    .c2{ 
+                    
+                        background-color: yellow;
+                    
+                        left: 0px;
+                        top: 0px;
+                    
+                    }
+                    .c3{ 
+                    
+                        background-color:green;
+                    
+                        bottom: 0px;
+                        left: 0px;
+                    
+                    }
+                    .c4{ 
+                    
+                        
+                        background-color: orange;
+                        top: 0px;
+                        right: 0px;
+                    }
+                    .common2{ 
+                        width: 250px;
+                        height: 250px;
+                        border: 1px solid #333;
+                    
+                    }
+                    .c11{ 
+                    
+                        background-color: violet;
+                        border-bottom-right-radius: 200px;
+                    }
+                    .c12{ 
+                    
+                        background-color: darkred;
+                        border-top-left-radius: 200px;
+                    }
+                    .c13{ 
+                    
+                        background-color:darkgreen;
+                        border-bottom-left-radius: 200px;
+                    }
+                    .c14{ 
+                    
+                        background-color: rosybrown;
+                        border-top-right-radius: 200px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="mybox"> 
+                    <div class="c1 common">
+                        <div class="c11 common2"></div>
+                    </div>
+                    <div class="c2 common" >
+                        <div class="c12 common2"></div>
+                
+                    </div>
+                    <div class="c3 common">
+                        <div class="c13 common2"></div>
+                    </div>
+                    <div class="c4 common"> 
+                        <div class="c14 common2"></div>
+                    </div>
+                </div> 
+            </body>
+            </html>
